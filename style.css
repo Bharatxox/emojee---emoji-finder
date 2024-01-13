@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    padding: 30px 0;
+    text-align: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+}
+i.uil{
+    font-size: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+    right: 526px;
+    top: 4px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+input{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    height: 50px;
+    width: 500px;
+    padding-left: 15px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+.card{
+    width: 240px;
+    height: 200px;
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-rows: 60% 10% auto;
+    border: 2px solid rgb(183, 183, 183);
+    border-radius: 10px;
+}
+.emoji{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.aliases{
+    /* background-color: crimson; */
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bagel Fat One', system-ui;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* color: white; */
+}
+.name{
+    /* background-color: yellow; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-transform: capitalize;
+}
+#output{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-x: hidden;
+}
+
+/* -----------------------dark mode ---------------------------- */
+.button{
+    margin-top: 25px;
+    display: flex;
+    background: linear-gradient(#77C2D0, #3D91A7);
+    width: 80px;
+    /* justify-content: flex-start; */
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+
+}
+img{
+    height: 40px;
+    position: absolute;
+    left: 0;
+    transition:  0.5s ease;
+}
+.night{
+    background: linear-gradient(#041326, #0E314C);
+}
+.sunBackground{
+    background: linear-gradient(#77C2D0, #3D91A7);
+}
+.dark-mode {
+    color: white;
+    background-color: black;
+}
